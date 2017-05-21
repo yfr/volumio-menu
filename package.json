@@ -1,0 +1,22 @@
+{
+  "name": "volumio-menu",
+  "version": "1.0.0",
+  "description": "Volumio2 UI in the menu dock",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --overwrite --no-prune --out=build"
+  },
+  "repository": "https://github.com/yfr/volumio-menu",
+  "keywords": [
+    "volumio",
+    "menu"
+  ],
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^8.7.0"
+  },
+  "dependencies": {
+    "menubar": "^5.2.3"
+  }
+}
